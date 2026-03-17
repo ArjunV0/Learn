@@ -1,0 +1,130 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Backend Core",
+      "folder": "Roadmap/phase-1",
+      "topics": [
+        {
+          "id": 1,
+          "title": "PostgreSQL Fundamentals",
+          "filename": "01-postgresql-fundamentals.md",
+          "diagram_filename": "postgresql-fundamentals.png",
+          "subtopics": [
+            "Tables and schema design",
+            "Primary keys and foreign keys",
+            "Basic CRUD operations (INSERT, SELECT, UPDATE, DELETE)",
+            "Data modeling basics and normalization",
+            "Data types and constraints (NOT NULL, UNIQUE, DEFAULT)"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "SQL Deep Dive",
+          "filename": "02-sql-deep-dive.md",
+          "diagram_filename": "sql-deep-dive.png",
+          "subtopics": [
+            "SELECT projections and filtering with WHERE",
+            "INNER JOIN and LEFT JOIN — when and why",
+            "Aggregations: COUNT, SUM, AVG, GROUP BY, HAVING",
+            "ORDER BY, LIMIT, and pagination",
+            "SQL logical execution order (FROM → WHERE → GROUP BY → SELECT → ORDER BY)"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Indexing",
+          "filename": "03-indexing.md",
+          "diagram_filename": "indexing.png",
+          "subtopics": [
+            "What indexes are and how they work internally",
+            "B-Tree structure and why it is the default",
+            "When to use indexes and when not to",
+            "Composite indexes and column order rules",
+            "Query optimization using indexes",
+            "EXPLAIN ANALYZE to verify index usage"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Transactions and Data Integrity",
+          "filename": "04-transactions-and-data-integrity.md",
+          "diagram_filename": "transactions.png",
+          "subtopics": [
+            "ACID properties (Atomicity, Consistency, Isolation, Durability)",
+            "BEGIN, COMMIT, ROLLBACK",
+            "Isolation levels: Read Committed, Repeatable Read, Serializable",
+            "Concurrency anomalies: dirty reads, non-repeatable reads, phantom reads, lost updates",
+            "Locks: row-level locks, SELECT FOR UPDATE, deadlocks"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Database Performance",
+          "filename": "05-database-performance.md",
+          "diagram_filename": "database-performance.png",
+          "subtopics": [
+            "Identifying slow queries with pg_stat_statements",
+            "Reading EXPLAIN ANALYZE output",
+            "The N+1 query problem and how to fix it",
+            "Query optimization patterns",
+            "Connection pooling with PgBouncer"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Redis and Caching",
+          "filename": "06-redis-caching.md",
+          "diagram_filename": "redis-caching.png",
+          "subtopics": [
+            "Key-value storage and Redis data structures",
+            "TTL (time to live) and expiration",
+            "Cache patterns: cache-aside, read-through, write-through",
+            "Cache invalidation strategies",
+            "Cache stampede problem and mitigation"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Advanced Redis",
+          "filename": "07-advanced-redis.md",
+          "diagram_filename": "advanced-redis.png",
+          "subtopics": [
+            "Rate limiting with fixed window and sliding window patterns",
+            "Session storage — Redis vs JWT tradeoffs",
+            "Atomic counters with INCR",
+            "Redis sorted sets for leaderboards",
+            "Designing for Redis failure and graceful degradation"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Background Jobs and Queues",
+          "filename": "08-background-jobs-and-queues.md",
+          "diagram_filename": "background-jobs-queues.png",
+          "subtopics": [
+            "Why async processing exists — decoupling slow operations",
+            "Queue basics: producer, consumer, broker",
+            "Worker systems and concurrent processing",
+            "Retry mechanisms with exponential backoff",
+            "Idempotency — why jobs must be safe to run twice",
+            "Dead letter queues (DLQ)"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Backend Integration",
+          "filename": "09-backend-integration.md",
+          "diagram_filename": "backend-integration.png",
+          "subtopics": [
+            "API + Database + Cache: the standard read/write pattern",
+            "API + Queue + Worker: the async processing pattern",
+            "Structured logging and correlation IDs",
+            "Error handling across layers",
+            "Tracing a complete request through the full stack"
+          ]
+        }
+      ]
+    }
+  ]
+}

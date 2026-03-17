@@ -1,0 +1,30 @@
+Create a clean, minimal, ByteByteGo-style system diagram for: [TOPIC]
+
+Requirements:
+- White background
+- Flat design (no 3D, no gradients)
+- Clear labeled components (boxes)
+- Arrows showing flow direction
+- Use simple colors (blue, grey, black)
+- Consistent spacing and alignment
+- Professional engineering diagram style
+
+Diagram should clearly show:
+[FLOW DESCRIPTION]
+
+Components to include:
+[List main components explicitly]
+
+Flow requirements:
+- Show step-by-step data movement
+- Label arrows with actions (e.g., "Request", "Cache Hit", "DB Query", "Response")
+
+Style constraints:
+- No clutter
+- No unnecessary decoration
+- Easy to understand at a glance
+- Similar to system design interview diagrams
+
+Output:
+- High clarity architecture diagram
+- Suitable for learning documentation

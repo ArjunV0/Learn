@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "phase": 1,
+    "filename": "postgresql-fundamentals.png",
+    "output_path": "Roadmap/phase-1/images/postgresql-fundamentals.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: PostgreSQL Fundamentals\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of PostgreSQL Fundamentals covering the key concepts listed below.\n\nComponents to include:\n- Tables and schema design\n- Primary keys and foreign keys\n- Basic CRUD operations (INSERT, SELECT, UPDATE, DELETE)\n- Data modeling basics and normalization\n- Data types and constraints (NOT NULL, UNIQUE, DEFAULT)\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 2,
+    "phase": 1,
+    "filename": "sql-deep-dive.png",
+    "output_path": "Roadmap/phase-1/images/sql-deep-dive.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: SQL Deep Dive\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of SQL Deep Dive covering the key concepts listed below.\n\nComponents to include:\n- SELECT projections and filtering with WHERE\n- INNER JOIN and LEFT JOIN \u2014 when and why\n- Aggregations: COUNT, SUM, AVG, GROUP BY, HAVING\n- ORDER BY, LIMIT, and pagination\n- SQL logical execution order (FROM \u2192 WHERE \u2192 GROUP BY \u2192 SELECT \u2192 ORDER BY)\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 3,
+    "phase": 1,
+    "filename": "indexing.png",
+    "output_path": "Roadmap/phase-1/images/indexing.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Indexing\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Indexing covering the key concepts listed below.\n\nComponents to include:\n- What indexes are and how they work internally\n- B-Tree structure and why it is the default\n- When to use indexes and when not to\n- Composite indexes and column order rules\n- Query optimization using indexes\n- EXPLAIN ANALYZE to verify index usage\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 4,
+    "phase": 1,
+    "filename": "transactions.png",
+    "output_path": "Roadmap/phase-1/images/transactions.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Transactions and Data Integrity\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Transactions and Data Integrity covering the key concepts listed below.\n\nComponents to include:\n- ACID properties (Atomicity, Consistency, Isolation, Durability)\n- BEGIN, COMMIT, ROLLBACK\n- Isolation levels: Read Committed, Repeatable Read, Serializable\n- Concurrency anomalies: dirty reads, non-repeatable reads, phantom reads, lost updates\n- Locks: row-level locks, SELECT FOR UPDATE, deadlocks\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 5,
+    "phase": 1,
+    "filename": "database-performance.png",
+    "output_path": "Roadmap/phase-1/images/database-performance.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Database Performance\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Database Performance covering the key concepts listed below.\n\nComponents to include:\n- Identifying slow queries with pg_stat_statements\n- Reading EXPLAIN ANALYZE output\n- The N+1 query problem and how to fix it\n- Query optimization patterns\n- Connection pooling with PgBouncer\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 6,
+    "phase": 1,
+    "filename": "redis-caching.png",
+    "output_path": "Roadmap/phase-1/images/redis-caching.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Redis and Caching\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Redis and Caching covering the key concepts listed below.\n\nComponents to include:\n- Key-value storage and Redis data structures\n- TTL (time to live) and expiration\n- Cache patterns: cache-aside, read-through, write-through\n- Cache invalidation strategies\n- Cache stampede problem and mitigation\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 7,
+    "phase": 1,
+    "filename": "advanced-redis.png",
+    "output_path": "Roadmap/phase-1/images/advanced-redis.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Advanced Redis\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Advanced Redis covering the key concepts listed below.\n\nComponents to include:\n- Rate limiting with fixed window and sliding window patterns\n- Session storage \u2014 Redis vs JWT tradeoffs\n- Atomic counters with INCR\n- Redis sorted sets for leaderboards\n- Designing for Redis failure and graceful degradation\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 8,
+    "phase": 1,
+    "filename": "background-jobs-queues.png",
+    "output_path": "Roadmap/phase-1/images/background-jobs-queues.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Background Jobs and Queues\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Background Jobs and Queues covering the key concepts listed below.\n\nComponents to include:\n- Why async processing exists \u2014 decoupling slow operations\n- Queue basics: producer, consumer, broker\n- Worker systems and concurrent processing\n- Retry mechanisms with exponential backoff\n- Idempotency \u2014 why jobs must be safe to run twice\n- Dead letter queues (DLQ)\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  },
+  {
+    "id": 9,
+    "phase": 1,
+    "filename": "backend-integration.png",
+    "output_path": "Roadmap/phase-1/images/backend-integration.png",
+    "prompt": "Create a clean, minimal, ByteByteGo-style system diagram for: Backend Integration\n\nRequirements:\n- White background\n- Flat design (no 3D, no gradients)\n- Clear labeled components (boxes)\n- Arrows showing flow direction\n- Use simple colors (blue, grey, black)\n- Consistent spacing and alignment\n- Professional engineering diagram style\n\nDiagram should clearly show:\nA visual representation of Backend Integration covering the key concepts listed below.\n\nComponents to include:\n- API + Database + Cache: the standard read/write pattern\n- API + Queue + Worker: the async processing pattern\n- Structured logging and correlation IDs\n- Error handling across layers\n- Tracing a complete request through the full stack\n\nFlow requirements:\n- Show step-by-step data movement\n- Label arrows with actions (e.g., 'Request', 'Cache Hit', 'DB Query', 'Response')\n- Show cause-and-effect relationships between components\n\nStyle constraints:\n- No clutter\n- No unnecessary decoration\n- Easy to understand at a glance\n- Similar to system design interview diagrams\n\nOutput:\n- High clarity architecture diagram\n- Suitable for learning documentation"
+  }
+]

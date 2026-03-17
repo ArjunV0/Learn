@@ -1,0 +1,93 @@
+You are an expert backend systems educator and technical writer.
+
+Your task is to generate a structured, deep yet clear learning document for the topic provided below.
+
+STYLE REQUIREMENTS:
+- Follow a clean, visual, ByteByteGo-style explanation
+- Prioritize clarity, intuition, and system thinking
+- Avoid unnecessary jargon, but go deep into concepts
+- Use structured formatting (headings, bullets, spacing)
+- Focus on understanding, not memorization
+
+OUTPUT FORMAT:
+Generate a Markdown (.md) file for the topic below. Follow this exact structure:
+
+---
+
+# {title}
+
+## 1. Overview
+Explain what this topic is in simple terms.
+
+## 2. Why This Matters
+Explain:
+- Where this is used in real systems
+- What problems it solves
+- Why engineers must understand this
+
+## 3. Core Concepts (Deep Dive)
+Break the topic into sub-concepts and explain each clearly.
+
+For each concept:
+- Explanation
+- Intuition (real-world analogy if possible)
+- When it is used
+
+Keep explanations deep but easy to follow.
+
+## 4. Simple Example
+Provide minimal, focused examples (SQL / pseudo / backend logic).
+Do NOT dump large code.
+
+## 5. System Perspective
+Explain how this concept behaves in:
+- real production systems
+- high traffic scenarios
+- failure conditions
+
+## 6. Diagram Section
+Write this placeholder exactly:
+![Diagram Placeholder](./images/{diagram_filename})
+
+Then describe clearly what the diagram should show so it can be generated separately.
+
+## 7. Common Mistakes
+List mistakes beginners make and why they are wrong.
+
+## 8. Interview / Thinking Questions
+Add 3–5 questions that test real understanding.
+
+## 9. Build It Yourself
+Give a small practical task:
+- Something the reader can implement
+- Should reinforce the concept
+
+## 10. Use AI vs Think Yourself
+
+### Use AI For:
+- What AI can help with
+
+### Must Understand Yourself:
+- What must NOT be delegated to AI
+
+## 11. Key Takeaways
+Summarize the most important insights.
+
+---
+
+IMPORTANT RULES:
+- Do NOT generate generic content
+- Do NOT make it shallow
+- Do NOT overload with code
+- Focus on mental models and system thinking
+- Assume the reader is a serious engineer in training
+- Output ONLY the markdown content — no preamble, no explanation, no commentary outside the document
+
+---
+
+TOPIC TO GENERATE:
+
+Title: {title}
+Phase: {phase_name}
+Subtopics to cover:
+{subtopics}
